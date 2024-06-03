@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Basic HTML Form</title>
+    <title>HTML Form</title>
 </head>
 <body>
-    <h2>Basic Information Form</h2>
+    <h2>Information Form</h2>
+
     <form>
         <label for="firstname">First Name:</label><br>
         <input type="text" id="firstname" name="firstname"><br><br>
@@ -32,10 +33,9 @@
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br><br>
 
         <input type="submit" value="Submit">
+
     </form>
 </body>
 </html>
